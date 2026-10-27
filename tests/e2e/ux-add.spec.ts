@@ -37,8 +37,8 @@ test('one add flow places a discovered light and controls it through the capabil
  await dialog.getByRole('button',{name:'Ruaj pajisjen'}).click();
  expect(submitted).toMatchObject({entityId:'light.kitchen',sceneId:home.scenes[0].id,confirmSamePhysicalDevice:true,enableControl:true,moveExisting:false});
  await expect(page.getByRole('dialog')).toContainText('Drita prove');
- const toggle=page.getByRole('switch',{name:/Drita prove/});await expect(toggle).toBeEnabled();await expect(toggle).toHaveAttribute('aria-checked','false');
- await toggle.click();await expect(toggle).toHaveAttribute('aria-checked','true');
+ // Check the seven-second save feedback immediately after save, before testing
+ // device controls. Software WebGL can make those unrelated actions outlive it.
  await page.getByRole('button',{name:'Mbyll panelin'}).click();
  await page.getByTestId('brand-toggle').click();
  await expect(page.locator('.scene-shade')).toHaveCSS('opacity','0');
@@ -47,6 +47,11 @@ test('one add flow places a discovered light and controls it through the capabil
  await expect(page.locator('.toast')).toBeVisible();
  await expect(page.locator('.toast')).toContainText('Pajisja u shtua');
  await page.screenshot({path:`docs/m4b/ux-clean-${info.project.name}.jpg`,type:'jpeg',quality:85});
+ await page.getByTestId('brand-toggle').click();
+ await page.getByRole('button',{name:'Objektet e dhomës',exact:true}).click();
+ await page.getByRole('button',{name:'Drita prove Pajisje · Home Assistant',exact:true}).click();
+ const toggle=page.getByRole('switch',{name:/Drita prove/});await expect(toggle).toBeEnabled();await expect(toggle).toHaveAttribute('aria-checked','false');
+ await toggle.click();await expect(toggle).toHaveAttribute('aria-checked','true');
 });
 
 test('unified catalogue stays compact and honest across device categories',async({page},info)=>{

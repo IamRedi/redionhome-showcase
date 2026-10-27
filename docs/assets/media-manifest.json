@@ -272,5 +272,10 @@
       "difference": "Earlier capture before final build-target separation and duplicate runtime-label removal; same scripted assistant and synthetic data."
     }
   },
-  "normalization": "Publication text uses LF; media unchanged. Per-capture build identity precedes final text normalization."
+  "normalization": "Publication text uses LF; media unchanged. Per-capture build identity precedes final text normalization.",
+  "verified_final_showcase_build": {
+    "build_id": "fa8a5e792db9bff929cb",
+    "source_sha256": "fa8a5e792db9bff929cbbf85e5719d98db6b1cbc929c1c4f0e5245ee3bdc2605",
+    "change_from_capture": "Final LF source normalization; no UI or demo behavior change."
+  }
 }

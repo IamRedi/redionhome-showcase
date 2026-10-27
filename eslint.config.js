@@ -4,6 +4,7 @@ export default ts.config(
   {
     ignores: [
       "dist/**",
+      "showcase-dist/**",
       "tests/fixtures/**",
       ".demo/**",
       "node_modules/**",

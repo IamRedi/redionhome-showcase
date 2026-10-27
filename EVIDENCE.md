@@ -38,13 +38,18 @@ tests; `showcase-dist` with the additional demo restrictions for presentation.
 | Backend/unit/integration | 154 tests passed across 19 files |
 | TypeScript and production build | Passed locally |
 | Restricted showcase build | Passed locally |
-| Desktop/mobile browser regression | In progress; final result recorded before publication |
-| Historical client update/draft path | Pending final run |
-| Safe demo HTTP smoke | Pending final run |
-| Publication surface / media hashes | Pending final staged scan |
-| Gitleaks directory/history | Pending final scan; preliminary directory scan had 0 findings |
-| GitHub Actions | Configured; final remote status recorded after private push |
+| Desktop/mobile browser regression | All 62 distinct checks covered: full run 61 passed; 2 targeted passes after test timing correction |
+| Historical client update/draft path | 1 passed: legacy → current → successor → rollback, two tabs and drafts preserved |
+| Safe demo HTTP smoke | Passed: auth, synthetic home, scripted assistant, blocked integration write and AI route |
+| Publication surface / media hashes | 243 tracked files checked; 0 issues |
+| Gitleaks directory/history | 0 findings; nonempty scan of the fresh root commit |
+| GitHub Actions | Jobs did not start because of an account-level Actions restriction |
 | Container runtime | Not verified locally: Docker Desktop cannot start on this host |
+
+[Private Actions run](https://github.com/IamRedi/redionhome-showcase/actions/runs/40547146327)
+failed without executing any steps because of an account-level Actions restriction.
+This is not a completed CI result. No account or visibility setting was changed
+to bypass it.
 
 Local backend/build/browser execution uses Ubuntu on WSL2, Node 22.23.4 and
 Chromium with software WebGL. Desktop and mobile are browser viewport projects,
@@ -60,6 +65,14 @@ source-only fixture, rather than referencing private Git history. A sensor test
 was corrected to inspect actual reading values: the old whole-response text
 assertion could accidentally match a timestamp ending in `.200Z`.
 Two additional tests verify the outbound guard and refusal of an unknown database.
+
+The 62-test full run finished with 61 passes and one expired-toast assertion.
+That assertion originally followed several unrelated device-control actions;
+the toast intentionally expires after seven seconds. The test now checks save
+feedback and menu hiding immediately after save, then reopens the device and
+verifies the same control assertions. Both desktop and mobile variants passed
+in the targeted rerun. No behavior assertion or screenshot was removed, and no
+application timing was changed to satisfy the test.
 
 ## Media
 
