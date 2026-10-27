@@ -1,0 +1,12 @@
+import {mkdtempSync,rmSync} from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+const root=mkdtempSync(path.join(os.tmpdir(),'redionhome-f0-'));
+process.env.DATA_DIR=root;
+process.env.PORT='4186';
+process.env.APP_ORIGIN='http://127.0.0.1:4186';
+process.env.OWNER_PASSWORD='disposable-f0-password-42';
+process.env.NODE_ENV='production';
+process.on('exit',()=>rmSync(root,{recursive:true,force:true}));
+const {startServer}=await import('../server/index.ts');
+await startServer(undefined,{loginRateLimit:40,clientDirectory:path.resolve('f0-client')});

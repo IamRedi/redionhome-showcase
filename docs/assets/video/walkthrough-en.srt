@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:04,000
+Explore a space in 360 degrees
+
+2
+00:00:04,000 --> 00:00:08,000
+Open an object in its spatial context
+
+3
+00:00:08,000 --> 00:00:13,000
+Edit in context and save a revision
+
+4
+00:00:13,000 --> 00:00:18,000
+Choose permission for each virtual action
+
+5
+00:00:18,000 --> 00:00:23,000
+Scripted assistant. Confirmed mock action. No live AI.
+
+6
+00:00:23,000 --> 00:00:27,000
+Save an ambient with explicit virtual steps
+
+7
+00:00:27,000 --> 00:00:32,000
+Preview a separate visitor profile before sharing
+
+8
+00:00:32,000 --> 00:00:36,000
+Browser-only piano simulation. No MIDI or device connection.
+
+9
+00:00:36,000 --> 00:00:40,000
+Public CC0 demo spaces. Your real home stays private.
+
+10
+00:00:40,000 --> 00:00:43,000
+Your space. Connected. Under your control.

@@ -1,0 +1,22 @@
+import type { MessageKey } from "./sq.ts";
+export const en: Record<MessageKey, string> = {
+  objects: "Room objects",
+  editor: "Open editor",
+  help: "How it works",
+  hideHotspots: "Hide hotspots",
+  showHotspots: "Show hotspots",
+  logout: "Sign out",
+  zoomIn: "Zoom in",
+  zoomOut: "Zoom out",
+  resetView: "Reset view",
+  fullscreen: "Fullscreen",
+  rotateLeft: "Rotate left",
+  rotateRight: "Rotate right",
+  showInterface: "Show interface",
+  scenes: "Views",
+  spaceTools: "Space tools",
+  viewControls: "View controls",
+  closePanel: "Close panel",
+  loading: "Opening your space…",
+  panoramaError: "The panorama could not be loaded.",
+};

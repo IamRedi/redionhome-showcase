@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:04,000
+Einen Raum in 360 Grad erkunden
+
+2
+00:00:04,000 --> 00:00:08,000
+Ein Objekt im räumlichen Kontext öffnen
+
+3
+00:00:08,000 --> 00:00:13,000
+Im Kontext bearbeiten und eine Version speichern
+
+4
+00:00:13,000 --> 00:00:18,000
+Jede virtuelle Aktion gezielt freigeben
+
+5
+00:00:18,000 --> 00:00:23,000
+Skript-Assistent. Bestätigte Mock-Aktion. Keine Live-KI.
+
+6
+00:00:23,000 --> 00:00:27,000
+Ein Ambiente mit expliziten virtuellen Schritten speichern
+
+7
+00:00:27,000 --> 00:00:32,000
+Ein separates Besucherprofil vor dem Teilen prüfen
+
+8
+00:00:32,000 --> 00:00:36,000
+Piano-Simulation im Browser. Keine MIDI- oder Geräteverbindung.
+
+9
+00:00:36,000 --> 00:00:40,000
+Öffentliche CC0-Demoräume. Das echte Zuhause bleibt privat.
+
+10
+00:00:40,000 --> 00:00:43,000
+Dein Raum. Verbunden. Unter deiner Kontrolle.

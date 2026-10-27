@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "RediOnHome",
+  "short_name": "RediOnHome",
+  "lang": "sq",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#152322",
+  "theme_color": "#152322",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "R AI",
+      "short_name": "R AI",
+      "description": "Asistenti i sht\u00ebpis\u00eb",
+      "url": "/ai"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "source_branch": "codex/f3-real-integrations",
+  "source_head": "83a9743e8fe4a709193b12b3720fe2dbb719f480",
+  "source_executable_commit": "0ca4fd2faea672b2fb2e3c1a1110208b9bd392ba",
+  "review_state": "DRAFT_OWNER_REVIEW",
+  "environment": "isolated loopback demonstration, Windows browser + Linux runtime",
+  "scenario": "CC0 atelier/studio, synthetic objects and virtual devices",
+  "real_ai_provider_calls": 0,
+  "physical_device_commands": 0,
+  "private_household_media": 0,
+  "video_method": "silent captioned montage of actual application screenshots",
+  "ui_language": "sq",
+  "captions": [
+    "de",
+    "en"
+  ],
+  "media": [
+    {
+      "path": "docs/assets/screenshots/ambients.png",
+      "sha256": "5b6f97af5e256d46ae38b2966e10050eafe6fe9cd8ee691241e90ae8524e763b",
+      "bytes": 74311,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "4d32df7",
+      "captured_at": "2026-10-27T16:48:06.078778+00:00",
+      "original_path": "docs/assets/screenshots/ambients.png",
+      "original_sha256": "5b6f97af5e256d46ae38b2966e10050eafe6fe9cd8ee691241e90ae8524e763b"
+    },
+    {
+      "path": "docs/assets/screenshots/ambients.webp",
+      "sha256": "2da3418a93c8a9f28a75ae70ae08d6e8199801a651e14927a72902bbfd3fc950",
+      "bytes": 55392,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "4d32df7",
+      "captured_at": "2026-10-27T16:48:06.078778+00:00",
+      "original_path": "docs/assets/screenshots/ambients.png",
+      "original_sha256": "5b6f97af5e256d46ae38b2966e10050eafe6fe9cd8ee691241e90ae8524e763b"
+    },
+    {
+      "path": "docs/assets/screenshots/assistant.png",
+      "sha256": "3d42aecf899571f294dcab2cd83fc62577d44ea6fdb72e15256753ae249d8c48",
+      "bytes": 73453,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "4d32df7",
+      "captured_at": "2026-10-27T16:48:16.870221+00:00",
+      "original_path": "docs/assets/screenshots/assistant.png",
+      "original_sha256": "3d42aecf899571f294dcab2cd83fc62577d44ea6fdb72e15256753ae249d8c48"
+    },
+    {
+      "path": "docs/assets/screenshots/assistant.webp",
+      "sha256": "6f8309aa42823adcab680fc908bc8056fd4e187d8eb481efa48b051782ed1f63",
+      "bytes": 56306,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "4d32df7",
+      "captured_at": "2026-10-27T16:48:16.870221+00:00",
+      "original_path": "docs/assets/screenshots/assistant.png",
+      "original_sha256": "3d42aecf899571f294dcab2cd83fc62577d44ea6fdb72e15256753ae249d8c48"
+    },
+    {
+      "path": "docs/assets/screenshots/editor.png",
+      "sha256": "0d5b2ad1b8bc6e56f8c002ec0c75cc527748814854ea139082c26cef918f49b1",
+      "bytes": 78114,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:58:46.600649+00:00",
+      "original_path": "docs/assets/screenshots/editor.png",
+      "original_sha256": "0d5b2ad1b8bc6e56f8c002ec0c75cc527748814854ea139082c26cef918f49b1"
+    },
+    {
+      "path": "docs/assets/screenshots/editor.webp",
+      "sha256": "9654e1b4582de216ec0052ef3706e673f5e0d7867f145b5ecb2f80c09b070fc4",
+      "bytes": 57636,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:58:46.600649+00:00",
+      "original_path": "docs/assets/screenshots/editor.png",
+      "original_sha256": "0d5b2ad1b8bc6e56f8c002ec0c75cc527748814854ea139082c26cef918f49b1"
+    },
+    {
+      "path": "docs/assets/screenshots/object.png",
+      "sha256": "94dbcf1729ec9e2b61f38a8f2a7ef575add8e2f9bedf2b053024294d00a1b250",
+      "bytes": 87959,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:52:14.236626+00:00",
+      "original_path": "docs/assets/screenshots/object.png",
+      "original_sha256": "94dbcf1729ec9e2b61f38a8f2a7ef575add8e2f9bedf2b053024294d00a1b250"
+    },
+    {
+      "path": "docs/assets/screenshots/object.webp",
+      "sha256": "28d864a8db0b70001cd85774e65f94a0b43f7f131775d90e3feb1c7431943e5c",
+      "bytes": 72902,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:52:14.236626+00:00",
+      "original_path": "docs/assets/screenshots/object.png",
+      "original_sha256": "94dbcf1729ec9e2b61f38a8f2a7ef575add8e2f9bedf2b053024294d00a1b250"
+    },
+    {
+      "path": "docs/assets/screenshots/permissions.png",
+      "sha256": "25af254c226947fabbf6c6c9d2bcc28ffd723c1f329da248e44dc72a44273a87",
+      "bytes": 76023,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "4d32df7",
+      "captured_at": "2026-10-27T16:48:06.496666+00:00",
+      "original_path": "docs/assets/screenshots/permissions.png",
+      "original_sha256": "25af254c226947fabbf6c6c9d2bcc28ffd723c1f329da248e44dc72a44273a87"
+    },
+    {
+      "path": "docs/assets/screenshots/permissions.webp",
+      "sha256": "206433001408fa1c9e94ff13a11ca3e4c2314ed13210d3ce0c45c116a42afe4d",
+      "bytes": 57620,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "4d32df7",
+      "captured_at": "2026-10-27T16:48:06.496666+00:00",
+      "original_path": "docs/assets/screenshots/permissions.png",
+      "original_sha256": "25af254c226947fabbf6c6c9d2bcc28ffd723c1f329da248e44dc72a44273a87"
+    },
+    {
+      "path": "docs/assets/screenshots/showroom.png",
+      "sha256": "9eccb65a860cb7cc4b05acbf42ca548fefd633d4085d286e99b75bfaf44b41ad",
+      "bytes": 81639,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:53:58.126643+00:00",
+      "original_path": "docs/assets/screenshots/showroom.png",
+      "original_sha256": "9eccb65a860cb7cc4b05acbf42ca548fefd633d4085d286e99b75bfaf44b41ad"
+    },
+    {
+      "path": "docs/assets/screenshots/showroom.webp",
+      "sha256": "a3ad71614471cef56bcc591adbde69941d98c6c784aebde6029f2dff20ae0d9f",
+      "bytes": 64224,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:53:58.126643+00:00",
+      "original_path": "docs/assets/screenshots/showroom.png",
+      "original_sha256": "9eccb65a860cb7cc4b05acbf42ca548fefd633d4085d286e99b75bfaf44b41ad"
+    },
+    {
+      "path": "docs/assets/screenshots/space.png",
+      "sha256": "62999db7320b1a4526ebafa66a464416b62c5c721c5245caa0486f469ed116b6",
+      "bytes": 138362,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:52:13.555545+00:00",
+      "original_path": "docs/assets/screenshots/space.png",
+      "original_sha256": "62999db7320b1a4526ebafa66a464416b62c5c721c5245caa0486f469ed116b6"
+    },
+    {
+      "path": "docs/assets/screenshots/space.webp",
+      "sha256": "e023264dc9c1835296bbdb62a7c30ca0adfc1f219f84a206fce1aae0d7ef12fb",
+      "bytes": 128780,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:52:13.555545+00:00",
+      "original_path": "docs/assets/screenshots/space.png",
+      "original_sha256": "62999db7320b1a4526ebafa66a464416b62c5c721c5245caa0486f469ed116b6"
+    },
+    {
+      "path": "docs/assets/screenshots/studio.png",
+      "sha256": "e54353d10877c9984c86907831b274819e03aedd7eec90f04c4f595cf3f5d075",
+      "bytes": 101831,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:58:23.922126+00:00",
+      "original_path": "docs/assets/screenshots/studio.png",
+      "original_sha256": "e54353d10877c9984c86907831b274819e03aedd7eec90f04c4f595cf3f5d075"
+    },
+    {
+      "path": "docs/assets/screenshots/studio.webp",
+      "sha256": "4392abc4ee7153c9bb82fc930ed2b79b23201a2ad58c8af2f9aa7c2601359bdd",
+      "bytes": 83182,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:58:23.922126+00:00",
+      "original_path": "docs/assets/screenshots/studio.png",
+      "original_sha256": "e54353d10877c9984c86907831b274819e03aedd7eec90f04c4f595cf3f5d075"
+    },
+    {
+      "path": "docs/assets/screenshots/virtual-piano.png",
+      "sha256": "7eb63e6a1f236e1c2d6405f7b3f6f03a48742179e9796cd1f8ded8cb7dd66ca6",
+      "bytes": 69803,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:54:18.293684+00:00",
+      "original_path": "docs/assets/screenshots/virtual-piano.png",
+      "original_sha256": "7eb63e6a1f236e1c2d6405f7b3f6f03a48742179e9796cd1f8ded8cb7dd66ca6"
+    },
+    {
+      "path": "docs/assets/screenshots/virtual-piano.webp",
+      "sha256": "ae24625ff868bc2bdf4c2f9fb5c4d5b7ab805dbe8a5c76443973e095d08e9a64",
+      "bytes": 47512,
+      "width": 1280,
+      "height": 720,
+      "capture_build": "2ef74b5",
+      "captured_at": "2026-10-27T16:54:18.293684+00:00",
+      "original_path": "docs/assets/screenshots/virtual-piano.png",
+      "original_sha256": "7eb63e6a1f236e1c2d6405f7b3f6f03a48742179e9796cd1f8ded8cb7dd66ca6"
+    },
+    {
+      "path": "docs/assets/social-preview.png",
+      "sha256": "710ed919c1c39dd25d7af951da0585a7faca6aebe978577bb7182964a4ae5134",
+      "bytes": 38518,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "docs/assets/video/transcript.md",
+      "sha256": "854cf1fc241f6fc616022ba9290fb4808e7fcbc4bf3d1026cabc71e0326ce456",
+      "bytes": 1433
+    },
+    {
+      "path": "docs/assets/video/walkthrough-de.mp4",
+      "sha256": "56e026f9526de6bc21433c7168f90ebd11792cbf33f1209314c8ddcc8fefaf43",
+      "bytes": 895008,
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 43,
+      "audio": false
+    },
+    {
+      "path": "docs/assets/video/walkthrough-de.srt",
+      "sha256": "95ddefb6e2a734476771ed85b8c21d09d24bf9323284d27f16f27b7cb96d301c",
+      "bytes": 835
+    },
+    {
+      "path": "docs/assets/video/walkthrough-en.mp4",
+      "sha256": "7c851df0a55435cb041171dee1a7b7801908f4cce18b446e81ddbcdc0afb83d8",
+      "bytes": 890372,
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 43,
+      "audio": false
+    },
+    {
+      "path": "docs/assets/video/walkthrough-en.srt",
+      "sha256": "c11a209838c44c5f5c16f71f2574cc22e310422f824d5170aee22f9a01685be8",
+      "bytes": 784
+    },
+    {
+      "path": "docs/assets/video/walkthrough-preview.webp",
+      "sha256": "57e718df0f93b132f07501f0d06a169f88c052956bfb0ab2a5c2092f88836fcb",
+      "bytes": 162720,
+      "width": 800,
+      "height": 450
+    }
+  ],
+  "capture_builds": {
+    "2ef74b5": {
+      "build_id": "2ef74b5d3d6e0cbce4cd",
+      "source_sha256": "2ef74b5d3d6e0cbce4cd03aea6bb598b1563c22f5715af827dc2d915d7f7ee3d"
+    },
+    "4d32df7": {
+      "build_id_prefix": "4d32df7",
+      "source_sha256": null,
+      "difference": "Earlier capture before final build-target separation and duplicate runtime-label removal; same scripted assistant and synthetic data."
+    }
+  },
+  "normalization": "Publication text uses LF; media unchanged. Per-capture build identity precedes final text normalization."
+}

@@ -1,0 +1,70 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  quality:
+    name: Full application and offline demo
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install media tools and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils
+          npm ci
+          npx playwright install --with-deps chromium
+      - run: npm run demo:fetch
+      - name: Full offline quality gate
+        shell: bash
+        run: |
+          export NODE_OPTIONS="--import=$PWD/scripts/offline-guard.mjs"
+          npm run ci:quality
+          npm run demo:build
+          node scripts/showcase-smoke.mjs
+  secrets:
+    name: Gitleaks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Scan complete Git history
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run --rm --user "$(id -u):$(id -g)" \
+            --volume "$PWD:/repo:ro" --workdir /repo \
+            ghcr.io/gitleaks/gitleaks:v8.30.1 \
+            git --config .gitleaks.toml --redact --no-banner \
+            2>&1 | tee "$RUNNER_TEMP/gitleaks.log"
+          # A Git ownership/error condition must never pass as an empty scan.
+          if grep -Eq 'ERR|0 commits scanned|scanned ~0 bytes' "$RUNNER_TEMP/gitleaks.log"; then
+            exit 1
+          fi
+          grep -Eq '[1-9][0-9]* commits scanned' "$RUNNER_TEMP/gitleaks.log"
+
+  container:
+    name: Isolated container smoke
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - run: docker build -t redionhome-showcase .
+      - run: docker run --rm --network none redionhome-showcase node scripts/showcase-smoke.mjs --container

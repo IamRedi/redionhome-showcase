@@ -1,0 +1,22 @@
+export const sq = {
+  objects: "Objektet e dhomës",
+  editor: "Hap editorin",
+  help: "Si funksionon",
+  hideHotspots: "Fshih hotspot-et",
+  showHotspots: "Shfaq hotspot-et",
+  logout: "Dil nga llogaria",
+  zoomIn: "Zmadho",
+  zoomOut: "Zvogëlo",
+  resetView: "Rivendos pamjen",
+  fullscreen: "Ekran i plotë",
+  rotateLeft: "Rrotullo majtas",
+  rotateRight: "Rrotullo djathtas",
+  showInterface: "Shfaq ndërfaqen",
+  scenes: "Pamjet",
+  spaceTools: "Mjetet e hapësirës",
+  viewControls: "Kontrolli i pamjes",
+  closePanel: "Mbyll panelin",
+  loading: "Duke hapur hapësirën…",
+  panoramaError: "Panorama nuk u ngarkua.",
+} as const;
+export type MessageKey = keyof typeof sq;

@@ -1,0 +1,22 @@
+import type { MessageKey } from "./sq.ts";
+export const de: Record<MessageKey, string> = {
+  objects: "Objekte im Raum",
+  editor: "Editor öffnen",
+  help: "So funktioniert es",
+  hideHotspots: "Hotspots ausblenden",
+  showHotspots: "Hotspots anzeigen",
+  logout: "Abmelden",
+  zoomIn: "Vergrößern",
+  zoomOut: "Verkleinern",
+  resetView: "Ansicht zurücksetzen",
+  fullscreen: "Vollbild",
+  rotateLeft: "Nach links drehen",
+  rotateRight: "Nach rechts drehen",
+  showInterface: "Oberfläche anzeigen",
+  scenes: "Ansichten",
+  spaceTools: "Raumwerkzeuge",
+  viewControls: "Ansicht steuern",
+  closePanel: "Panel schließen",
+  loading: "Raum wird geöffnet…",
+  panoramaError: "Panorama konnte nicht geladen werden.",
+};

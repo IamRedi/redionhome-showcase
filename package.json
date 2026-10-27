@@ -1,0 +1,58 @@
+{
+  "name": "redionhome-showcase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "node scripts/serve-showcase.mjs",
+    "build": "tsc --noEmit && vite build",
+    "start": "node scripts/serve-showcase.mjs",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "quality": "npm run lint && npm test && npm run build && npm run test:e2e",
+    "repo:safety": "node scripts/check-showcase.mjs",
+    "ci:quality": "npm run repo:safety && npm run lint && npm test && npm run build && npm run demo:fetch && npm run test:e2e && npm run test:updates",
+    "test:updates": "tsx scripts/f0-prepare-fixtures.ts && playwright test --config playwright.f0.config.ts",
+    "media:import": "tsx scripts/import-media.ts",
+    "demo:fetch": "tsx scripts/fetch-demo.ts",
+    "user:create": "tsx scripts/create-user.ts",
+    "tour:export": "tsx scripts/export-tour.ts",
+    "tour:serve": "tsx scripts/serve-tour.ts",
+    "demo": "node scripts/serve-showcase.mjs",
+    "demo:build": "node scripts/build-showcase.mjs"
+  },
+  "dependencies": {
+    "@photo-sphere-viewer/core": "^5.15.1",
+    "@photo-sphere-viewer/equirectangular-tiles-adapter": "^5.15.1",
+    "@photo-sphere-viewer/markers-plugin": "^5.15.1",
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "lucide-react": "^1.55.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.64.0",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/express": "^5.0.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/supertest": "^7.2.1",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.12.0",
+    "supertest": "^7.3.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
+  }
+}
