@@ -12,7 +12,6 @@ A spatial interface for rooms, content and connected objects: explore in 360°, 
 
 **[Deutsch](README.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
 
-
 > **Evidence and limitations:** Separate, sanitised evaluation snapshot using independent CC0 demonstration spaces; the private home installation and its data are not published. Evidence distinguishes simulated behaviour, implemented adapters and integrations actually verified on hardware. [Verification record](EVIDENCE.md).
 
 ## One space, different perspectives
