@@ -2,7 +2,7 @@
   "source_branch": "codex/f3-real-integrations",
   "source_head": "83a9743e8fe4a709193b12b3720fe2dbb719f480",
   "source_executable_commit": "0ca4fd2faea672b2fb2e3c1a1110208b9bd392ba",
-  "review_state": "DRAFT_OWNER_REVIEW",
+  "review_state": "PUBLISHED",
   "environment": "isolated loopback demonstration, Windows browser + Linux runtime",
   "scenario": "CC0 atelier/studio, synthetic objects and virtual devices",
   "real_ai_provider_calls": 0,
@@ -277,5 +277,12 @@
     "build_id": "fa8a5e792db9bff929cb",
     "source_sha256": "fa8a5e792db9bff929cbbf85e5719d98db6b1cbc929c1c4f0e5245ee3bdc2605",
     "change_from_capture": "Final LF source normalization; no UI or demo behavior change."
+  },
+  "owner_approval": {
+    "reviewed_commit": "04c09b549965413b0d037355c3fda4312df91f50",
+    "target": "https://github.com/IamRedi/redionhome-showcase",
+    "copy_sha256": "a38f9b5acf390ffe21b2ac15b3ef4495d29c5a76eebfbf4374c907405718d16e",
+    "approved_at": "2026-10-27T17:34:49.000117+00:00",
+    "evidence": "Explicit owner request after the local preview: publish this showcase and verify keys again."
   }
 }

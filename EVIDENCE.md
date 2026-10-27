@@ -1,7 +1,7 @@
 # Verification record
 
-Prepared on 27 October 2026. This is a separate private evaluation repository,
-pending owner review for public visibility.
+Prepared on 27 October 2026 and published after explicit owner review. This is a
+separate evaluation repository. The original project and installation remain private.
 
 ## Source and scope
 
@@ -43,13 +43,14 @@ tests; `showcase-dist` with the additional demo restrictions for presentation.
 | Safe demo HTTP smoke | Passed: auth, synthetic home, scripted assistant, blocked integration write and AI route |
 | Publication surface / media hashes | 243 tracked files checked; 0 issues |
 | Gitleaks directory/history | 0 findings; nonempty scan of the fresh root commit |
-| GitHub Actions | Jobs did not start because of an account-level Actions restriction |
+| GitHub Actions | Runs on public `main`; check the live CI link below for the current commit |
 | Container runtime | Not verified locally: Docker Desktop cannot start on this host |
 
-[Private Actions run](https://github.com/IamRedi/redionhome-showcase/actions/runs/40547146327)
-failed without executing any steps because of an account-level Actions restriction.
-This is not a completed CI result. No account or visibility setting was changed
-to bypass it.
+[Current hosted CI](https://github.com/IamRedi/redionhome-showcase/actions/workflows/ci.yml).
+The initial private-repository runs did not execute any steps because of an
+account-level Actions restriction; those runs are not completed validation.
+The owner subsequently approved publication of this reviewed showcase. No account
+setting was changed. Hosted results are separate from the local checks above.
 
 Local backend/build/browser execution uses Ubuntu on WSL2, Node 22.23.4 and
 Chromium with software WebGL. Desktop and mobile are browser viewport projects,
@@ -85,8 +86,9 @@ The silent 43-second DE/EN videos are captioned montages of actual screenshots,
 not continuous interaction recordings. Both MP4 files are fully decoded during
 generation. Original images, derivatives and captions are checksummed in the
 [media manifest](docs/assets/media-manifest.json). The social card is a typographic
-graphic, not a synthetic application screenshot. All media remain drafts awaiting
-owner review. Attribution and limitations are in [MEDIA.md](docs/MEDIA.md).
+graphic, not a synthetic application screenshot. The owner approved these exact
+media checksums for this repository after viewing the review page. Attribution
+and limitations are in [MEDIA.md](docs/MEDIA.md).
 
 No public deployment, paid generation, private runtime access or device acceptance
 is implied by this evaluation copy.

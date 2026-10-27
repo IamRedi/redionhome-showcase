@@ -11,5 +11,7 @@ https://polyhaven.com/a/artist_workshop
 https://polyhaven.com/a/brown_photostudio_02
 
 File checksums, dimensions, source identity and review state are in
-`docs/assets/media-manifest.json`. These draft media await owner review before
-any public repository visibility change or other publication.
+`docs/assets/media-manifest.json`. The owner reviewed the preview and explicitly
+approved these exact assets for publication in this showcase on 27 October 2026.
+Approval applies to this GitHub repository; other publication targets require
+their own editorial decision.
