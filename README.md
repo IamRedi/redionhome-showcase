@@ -12,7 +12,6 @@ Eine räumliche Benutzeroberfläche für Räume, Inhalte und vernetzte Objekte: 
 
 **[English](README.en.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
 
-
 > **Nachweisstand und Grenzen:** Separater, bereinigter Evaluationsstand mit unabhängigen CC0-Demoräumen; die private Heiminstallation und ihre Daten werden nicht veröffentlicht. Der Nachweis trennt nachgebautes Verhalten, implementierte Adapter und tatsächlich auf Hardware geprüfte Integrationen. [Prüfprotokoll (EN)](EVIDENCE.md).
 
 ## Eine Oberfläche, mehrere Perspektiven
