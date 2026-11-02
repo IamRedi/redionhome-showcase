@@ -1,6 +1,6 @@
 # RediOnHome
 
-**Your space. Connected. Under your control.**
+**Dein Raum. Vernetzt. Unter deiner Kontrolle.**
 
 Eine räumliche Benutzeroberfläche für Räume, Inhalte und vernetzte Objekte: 360° erkunden, ein Objekt auswählen, im Kontext bearbeiten und gezielt als Showroom freigeben.
 
@@ -11,6 +11,8 @@ Eine räumliche Benutzeroberfläche für Räume, Inhalte und vernetzte Objekte: 
 ![Actual application with public CC0 demonstration panorama](docs/assets/screenshots/space.webp)
 
 **[English](README.en.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
+
+> **Nachweisstand und Grenzen:** Separater, bereinigter Evaluationsstand mit unabhängigen CC0-Demoräumen; die private Heiminstallation und ihre Daten werden nicht veröffentlicht. Der Nachweis trennt nachgebautes Verhalten, implementierte Adapter und tatsächlich auf Hardware geprüfte Integrationen. [Prüfprotokoll (EN)](EVIDENCE.md).
 
 ## Eine Oberfläche, mehrere Perspektiven
 
@@ -76,4 +78,4 @@ Dies ist ein entwickelter Prototyp, kein fertiges universelles Smart-Home- oder 
 
 Source-available zur lokalen Bewertung; Produktion, kommerzielle Nutzung und Weiterverteilung benötigen schriftliche Erlaubnis. Kein Open-Source-Lizenzversprechen. [Lizenz](LICENSE).
 
-Panoramas: **Artist Workshop**, Oliksiy Yakovlyev; **Brown Photostudio 02**, Sergej Majboroda — [Poly Haven, CC0](assets/demo/PROVENANCE.md). They are independent public demonstration spaces, not the owner's home. Third-party assets retain their own licenses.
+Panoramen: **Artist Workshop** von Oliksiy Yakovlyev und **Brown Photostudio 02** von Sergej Majboroda — [Poly Haven, CC0](assets/demo/PROVENANCE.md). Dies sind unabhängige, öffentlich nutzbare Demoräume und keine Aufnahmen aus der Privatwohnung des Autors. Für Inhalte Dritter gelten deren jeweilige Lizenzen.
