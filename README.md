@@ -85,3 +85,8 @@ Dies ist ein entwickelter Prototyp, kein fertiges universelles Smart-Home- oder 
 Source-available zur lokalen Bewertung; Produktion, kommerzielle Nutzung und Weiterverteilung benötigen schriftliche Erlaubnis. Kein Open-Source-Lizenzversprechen. [Lizenz](LICENSE).
 
 Panoramas: **Artist Workshop**, Oliksiy Yakovlyev; **Brown Photostudio 02**, Sergej Majboroda — [Poly Haven, CC0](assets/demo/PROVENANCE.md). They are independent public demonstration spaces, not the owner's home. Third-party assets retain their own licenses.
+
+<!-- PRESENTATION_FIRST_CANDIDATE_20261104 -->
+## Public website candidate · 4 November 2026
+
+The presentation-first update is prepared for review: [product website](https://home.redioncekrezi.de/en.html). Publication and anonymous online verification remain pending; this candidate does not raise application readiness. The product website explains the platform before app sign-in. Private-network or approved-account access remains separate.
