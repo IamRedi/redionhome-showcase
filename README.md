@@ -12,6 +12,13 @@ Eine räumliche Benutzeroberfläche für Räume, Inhalte und vernetzte Objekte: 
 
 **[English](README.en.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
 
+<!-- PRESENTATION_FIRST_PUBLICATION_76F8B3EAC1CF -->
+## Öffentliche Produktwebsite · 4 November 2026
+
+Die [Produktwebsite](https://home.redioncekrezi.de/en.html) stellt die Plattform vor, bevor der bestehende App-Zugang geöffnet wird. Die Informationen sind öffentlich; private Netzwerk- oder Kontoberechtigungen gelten weiterhin nur für die Anwendung. Zweck, Funktionen und Bedienung sind in SQ/EN/DE/IT beschrieben.
+
+Verifiziert am 4. November 2026 mit Paket `76f8b3eac1cf` und [Portfolio PR29](https://github.com/IamRedi/redion-portfolio-/pull/29). App-Funktionsumfang, Medien, Stage und Readiness bleiben unverändert.
+
 ## Eine Oberfläche, mehrere Perspektiven
 
 - **Räume erleben:** Panorama, Portale zwischen Ansichten und Objekte direkt im Bild. Die Demo-Verbindungen sind illustrativ, kein vermessener Grundriss.

@@ -12,6 +12,13 @@ A spatial interface for rooms, content and connected objects: explore in 360°, 
 
 **[Deutsch](README.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
 
+<!-- PRESENTATION_FIRST_PUBLICATION_76F8B3EAC1CF -->
+## Public product website · 4 November 2026
+
+The [product website](https://home.redioncekrezi.de/en.html) introduces the platform before opening the existing application entrance. Information is public; private-network or approved-account permissions still apply to the application. The overview is available in SQ/EN/DE/IT.
+
+Verified on 4 November 2026 with packet `76f8b3eac1cf` and [portfolio PR29](https://github.com/IamRedi/redion-portfolio-/pull/29). Application capabilities, existing media, stage and readiness are unchanged.
+
 ## One space, different perspectives
 
 - **Explore a room:** panorama, portals between viewpoints and objects placed in the image. Demo connections are illustrative, not surveyed geometry.
