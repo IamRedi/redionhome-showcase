@@ -12,13 +12,12 @@ Eine räumliche Benutzeroberfläche für Räume, Inhalte und vernetzte Objekte: 
 
 **[English](README.en.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
 
-## Native Produktpräsentation · 4. November 2026
+<!-- PRESENTATION_FIRST_PUBLICATION_76F8B3EAC1CF -->
+## Öffentliche Produktwebsite · 4 November 2026
 
-RediOnHome hat jetzt eine native Informationsseite in **SQ, EN, DE und IT** mit Zweck, belegten Funktionen, Ablauf und tatsächlichem App-Zugang. Im [Anwendungsverzeichnis](https://www.redioncekrezi.de/de) **RediOnHome → Über die App** öffnen.
+Die [Produktwebsite](https://home.redioncekrezi.de/en.html) stellt die Plattform vor, bevor der bestehende App-Zugang geöffnet wird. Die Informationen sind öffentlich; private Netzwerk- oder Kontoberechtigungen gelten weiterhin nur für die Anwendung. Zweck, Funktionen und Bedienung sind in SQ/EN/DE/IT beschrieben.
 
-[SQ](https://www.redioncekrezi.de/sq) · [EN](https://www.redioncekrezi.de/en) · [DE](https://www.redioncekrezi.de/de) · [IT](https://www.redioncekrezi.de/it)
-
-Die Präsentation nutzt die bestehende Adresse und Zugriffskontrolle der Anwendung. Sie gewährt keinen Zugang zur privaten Installation und macht dieses öffentliche Offline-Showcase nicht zu einem offenen Dienst. Sprache der App-Oberfläche, Funktionen und Reifegrad bleiben unverändert. Die bestehenden Demo-Aufnahmen beschreiben weiterhin dieselbe Anwendung.
+Verifiziert am 4. November 2026 mit Paket `76f8b3eac1cf` und [Portfolio PR29](https://github.com/IamRedi/redion-portfolio-/pull/29). App-Funktionsumfang, Medien, Stage und Readiness bleiben unverändert.
 
 ## Eine Oberfläche, mehrere Perspektiven
 
@@ -85,8 +84,3 @@ Dies ist ein entwickelter Prototyp, kein fertiges universelles Smart-Home- oder 
 Source-available zur lokalen Bewertung; Produktion, kommerzielle Nutzung und Weiterverteilung benötigen schriftliche Erlaubnis. Kein Open-Source-Lizenzversprechen. [Lizenz](LICENSE).
 
 Panoramas: **Artist Workshop**, Oliksiy Yakovlyev; **Brown Photostudio 02**, Sergej Majboroda — [Poly Haven, CC0](assets/demo/PROVENANCE.md). They are independent public demonstration spaces, not the owner's home. Third-party assets retain their own licenses.
-
-<!-- PRESENTATION_FIRST_CANDIDATE_20261104 -->
-## Public website candidate · 4 November 2026
-
-The presentation-first update is prepared for review: [product website](https://home.redioncekrezi.de/en.html). Publication and anonymous online verification remain pending; this candidate does not raise application readiness. The product website explains the platform before app sign-in. Private-network or approved-account access remains separate.

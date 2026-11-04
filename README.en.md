@@ -12,13 +12,12 @@ A spatial interface for rooms, content and connected objects: explore in 360°, 
 
 **[Deutsch](README.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
 
-## Native product presentation · 4 November 2026
+<!-- PRESENTATION_FIRST_PUBLICATION_76F8B3EAC1CF -->
+## Public product website · 4 November 2026
 
-RediOnHome now has a native information page in **SQ, EN, DE and IT**, with its purpose, verified capabilities, workflow and actual application entry. Open **RediOnHome → Overview** in the [application directory](https://www.redioncekrezi.de/en).
+The [product website](https://home.redioncekrezi.de/en.html) introduces the platform before opening the existing application entrance. Information is public; private-network or approved-account permissions still apply to the application. The overview is available in SQ/EN/DE/IT.
 
-[SQ](https://www.redioncekrezi.de/sq) · [EN](https://www.redioncekrezi.de/en) · [DE](https://www.redioncekrezi.de/de) · [IT](https://www.redioncekrezi.de/it)
-
-The presentation uses the application’s existing origin and access controls. It does not grant access to a private installation or turn this public offline showcase into an open service. The application UI language, implemented capabilities and readiness are unchanged. Existing demo screenshots still describe the same application.
+Verified on 4 November 2026 with packet `76f8b3eac1cf` and [portfolio PR29](https://github.com/IamRedi/redion-portfolio-/pull/29). Application capabilities, existing media, stage and readiness are unchanged.
 
 ## One space, different perspectives
 
@@ -85,8 +84,3 @@ This is a developed prototype, not a finished universal smart-home or multiuser 
 Source-available for local evaluation; production, commercial use and redistribution need written permission. This is not an open-source license. [License](LICENSE).
 
 Panoramas: **Artist Workshop**, Oliksiy Yakovlyev; **Brown Photostudio 02**, Sergej Majboroda — [Poly Haven, CC0](assets/demo/PROVENANCE.md). They are independent public demonstration spaces, not the owner's home. Third-party assets retain their own licenses.
-
-<!-- PRESENTATION_FIRST_CANDIDATE_20261104 -->
-## Public website candidate · 4 November 2026
-
-The presentation-first update is prepared for review: [product website](https://home.redioncekrezi.de/en.html). Publication and anonymous online verification remain pending; this candidate does not raise application readiness. The product website explains the platform before app sign-in. Private-network or approved-account access remains separate.
