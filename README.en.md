@@ -12,6 +12,14 @@ A spatial interface for rooms, content and connected objects: explore in 360°, 
 
 **[Deutsch](README.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
 
+## Native product presentation · 4 November 2026
+
+RediOnHome now has a native information page in **SQ, EN, DE and IT**, with its purpose, verified capabilities, workflow and actual application entry. Open **RediOnHome → Overview** in the [application directory](https://www.redioncekrezi.de/en).
+
+[SQ](https://www.redioncekrezi.de/sq) · [EN](https://www.redioncekrezi.de/en) · [DE](https://www.redioncekrezi.de/de) · [IT](https://www.redioncekrezi.de/it)
+
+The presentation uses the application’s existing origin and access controls. It does not grant access to a private installation or turn this public offline showcase into an open service. The application UI language, implemented capabilities and readiness are unchanged. Existing demo screenshots still describe the same application.
+
 ## One space, different perspectives
 
 - **Explore a room:** panorama, portals between viewpoints and objects placed in the image. Demo connections are illustrative, not surveyed geometry.

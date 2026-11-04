@@ -12,6 +12,14 @@ Eine räumliche Benutzeroberfläche für Räume, Inhalte und vernetzte Objekte: 
 
 **[English](README.en.md)** · [Verification](EVIDENCE.md) · [Architecture](docs/ARCHITECTURE.md) · [Media provenance](docs/MEDIA.md)
 
+## Native Produktpräsentation · 4. November 2026
+
+RediOnHome hat jetzt eine native Informationsseite in **SQ, EN, DE und IT** mit Zweck, belegten Funktionen, Ablauf und tatsächlichem App-Zugang. Im [Anwendungsverzeichnis](https://www.redioncekrezi.de/de) **RediOnHome → Über die App** öffnen.
+
+[SQ](https://www.redioncekrezi.de/sq) · [EN](https://www.redioncekrezi.de/en) · [DE](https://www.redioncekrezi.de/de) · [IT](https://www.redioncekrezi.de/it)
+
+Die Präsentation nutzt die bestehende Adresse und Zugriffskontrolle der Anwendung. Sie gewährt keinen Zugang zur privaten Installation und macht dieses öffentliche Offline-Showcase nicht zu einem offenen Dienst. Sprache der App-Oberfläche, Funktionen und Reifegrad bleiben unverändert. Die bestehenden Demo-Aufnahmen beschreiben weiterhin dieselbe Anwendung.
+
 ## Eine Oberfläche, mehrere Perspektiven
 
 - **Räume erleben:** Panorama, Portale zwischen Ansichten und Objekte direkt im Bild. Die Demo-Verbindungen sind illustrativ, kein vermessener Grundriss.
